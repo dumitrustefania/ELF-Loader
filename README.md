@@ -82,7 +82,7 @@ It can be run using:
 make -f Makefile.example
 ```
 
-In order to test the code using the testcase present in the `test_prog` directory, use:
+* In order to test the code using the testcase present in the `test_prog` directory, use:
 ```
 LD_LIBRARY_PATH=. ./so_exec so_test_prog
 ```
