@@ -3,7 +3,7 @@
 322CA - Bianca Ștefania Dumitru \
 Operating Systems Course
 
-November 2022
+### November 2022
 ----------------------------------------------------------------------------------------------------
 ## Introduction
 
