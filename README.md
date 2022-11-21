@@ -86,25 +86,3 @@ In order to test the code using the testcase present in the `test_prog` director
 ```
 LD_LIBRARY_PATH=. ./so_exec so_test_prog
 ```
-## Feedback
-
-I think it was an interesting homework, that helped me understand better how memory
-works on my system and how it is structured into pages.
-
-I think a hard part for me was being able to find a workaround for zeroing the .bss
-zone, as I initially thought that MAP_ANONYMOUS flag already zeroes the whole page.
-That did not really work, so I had to spend some time debugging and finding out 
-another way to do it.
-
-Some more resources would have been helpful, though, considering that the homework
-was not similar to almost anything we did during the laboratories.
-
-## Resources
-* Curs 05 - Gestiunea memoriei - https://ocw.cs.pub.ro/courses/so/cursuri/curs-05
-* Curs 06 - Memoria virtuală - https://ocw.cs.pub.ro/courses/so/cursuri/curs-06
-* Laborator 04 - Semnale - https://ocw.cs.pub.ro/courses/so/laboratoare/laborator-04
-* Laborator 05 - Gestiunea memoriei - https://ocw.cs.pub.ro/courses/so/laboratoare/laborator-05
-* Laborator 06 - Memoria virtuală - https://ocw.cs.pub.ro/courses/so/laboratoare/laborator-06
-* https://linuxhint.com/using_mmap_function_linux/
-* https://en.wikipedia.org/wiki/Executable_and_Linkable_Format
-* Linux man (praise be) - lseek, read, mmap, mprotect
